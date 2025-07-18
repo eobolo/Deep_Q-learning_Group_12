@@ -1,10 +1,12 @@
 import gymnasium as gym
 import numpy as np
+import os
+import sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from stable_baselines3 import DQN
 from stable_baselines3.common.callbacks import BaseCallback
 from stable_baselines3.common.atari_wrappers import AtariWrapper
 from test_env.test_cnn_breakout_env_setup import setup_and_test_environment
-import os
 import pandas as pd
 
 # Custom callback to log reward and episode length

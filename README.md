@@ -36,3 +36,5 @@ AutoROM --accept-license
 | train/             | Training scripts                        | Model training scripts                        |
 | training_graphs/   | Training plots/graphs                   | Output plots/figures from evaluation scripts  |
 
+## CNN policy demo
+![Demo](https://res.cloudinary.com/dw5nzq7kb/image/upload/v1752852053/Timeline_1_u4eihu.gif)
