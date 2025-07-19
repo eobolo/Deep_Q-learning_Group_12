@@ -44,9 +44,9 @@ The table above summarizes the impact of different hyperparameter configurations
 
 ## Group Collaboration and Individual Contributions
 
-- **Task 1: EMMANUEL OBOLO** Environment setup, initial training with CnnPolicy, baseline hyperparameter tuning, and README/documentation.
-- **Task 2: MERVEILLE KANGABIRE** Training with MlpPolicy, further hyperparameter tuning.
-- **Task 3: SHOBI OLADISA** Play script creation, final fine-tuning, video recording, and policy comparison.
+- **Task 1: EMMANUEL OBOLO;** Environment setup, initial training with CnnPolicy, baseline hyperparameter tuning, and README/documentation.
+- **Task 2: MERVEILLE KANGABIRE;** Training with MlpPolicy, further hyperparameter tuning.
+- **Task 3: SHOBI OLA-ADISA;** Play script creation, final fine-tuning, video recording, and policy comparison.
 
 Each member contributed to different aspects of the project, with workload distributed across environment setup, training, evaluation, and documentation. The hyperparameter table and experiment logs reflect collaborative input and ongoing updates.
 
