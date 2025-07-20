@@ -85,7 +85,7 @@ AutoROM --accept-license
 ## Video Demonstration
 
 ### CNN Demo
-![CNN Demo](https://res.cloudinary.com/dw5nzq7kb/image/upload/v1752852053/Timeline_1_u4eihu.gif)
+![CNN Demo](./demos/CNN.gif)
 
 ### MLP Demo
-![MLP Demo](https://res.cloudinary.com/dw5nzq7kb/image/upload/v1753010506/MLP_bglsha.gif)
+![MLP Demo](./demos/MLP.gif)
