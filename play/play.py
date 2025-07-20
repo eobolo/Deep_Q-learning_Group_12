@@ -6,6 +6,7 @@ from stable_baselines3 import DQN
 from stable_baselines3.common.atari_wrappers import AtariWrapper
 import time
 from select_model import select_model_interactive
+from gymnasium.wrappers import FlattenObservation
 from test_env.test_cnn_breakout_env_setup import setup_and_test_environment
 
 

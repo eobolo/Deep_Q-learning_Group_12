@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-training_log_file = "training_log_S02.csv" # edit based on your log file name
+training_log_file = "training_log_mlp_S02.csv" # edit based on your log file name
 log = pd.read_csv("logs/{}".format(training_log_file))
 
 

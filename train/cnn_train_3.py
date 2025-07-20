@@ -126,7 +126,7 @@ model = DQN(
 # Train the model
 experiment_value = input("Enter an experiment name: ")
 log_file = f"training_log_{experiment_value}.csv"
-total_timesteps = 1000000
+total_timesteps = 3500000
 
 callback = TrainingLoggerCallback(
     check_freq=1000, 
