@@ -96,6 +96,14 @@ AutoROM --accept-license
    - Play Atari Game using [`play/play.py`](play)
    - Hyperparameter observations are in [`experiment_table/hyperparameter_observation.xlsx`](experiment_table/hyperparameter_observation.xlsx)
 
+## Policy Comparison
+
+CNNs  outperform MLPs in this Breakout experiment, with 2.4-2.8 average rewards (peak 3.0) compared to MLPs' 0.8-1.3 and 35-40 timesteps versus 18-22, CNNs perform better at playing the breakout game 
+
+This gap in performance most likely results from different architectural designs of the two policies: CNNs use convolutional layers, which have shared weights that can identify patterns anywhere on the screen and naturally detect spatial patterns like the trajectory of the ball, and paddle positions. This ability is especially important when playing Atari allowing the CNN to outperform the MLP policy. Learningspatial relationships may be more difficult with MLPs since they handle each of the 7,056 pixels individually.
+
+MLPs continue to be volatile even after 3M timesteps, whereas CNNs show distinct learning phases and steady convergence. Although the precise mechanisms underlying CNNs' superior performance cannot be accurately decided, these results imply that they are more appropriate for visual tasks like this.
+
 ## Video Demonstration
 
 ### CNN Demo
